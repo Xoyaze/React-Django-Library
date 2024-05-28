@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-imported{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vertical-text {
+    writing-mode: vertical-lr; 
+    text-orientation: upright;
+}
+
+.custom-scrollbar{
+    overflow-y: scroll;
+}
+
+.custom-scrollbar::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(40,80,20);
+}
